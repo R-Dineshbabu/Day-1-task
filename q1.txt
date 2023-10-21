@@ -1,0 +1,32 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+ HTTP1.1:
+       * In http1,1,if clients want to make multiple parallel request than multiple TCP connectiom must be
+       used,in this behaviour only one response can be delivered at a time.
+
+       * In http1.1 slow page reloads leads to
+               # frustarated users
+               # High bounce rates
+               # Domain sharding
+               # Image spirites
+
+        * In http1.1 client wont understand htttp2 server and vice versa.
+
+ HTTP2:
+        * Http2 intoduce a new layaer called binary framing layer that is not in http1.1.
+
+        * In binary framing layer HTTP2 removes the TCP limitation and enables full request and respond 
+        at a time 
+
+        * By allowing client and server to break down a HTTP message into independent frames,interleave
+        them,and then reassemble on the other end.
+
+        * only one TCP connection is enough for handle multiple frames of data.
+
+        * HTTP2 compress http headers.
+
+        * Allows server push.
+
+        * Enables multiplexing 
+
+

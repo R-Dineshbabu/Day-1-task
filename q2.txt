@@ -1,0 +1,22 @@
+2.Write a blog about objects and its internal representation in Javascript
+    
+    * objects are datatypes in Javascript
+
+    * objects are different than primitive datatypes
+
+    * Primitive datatypes contain one value but objects can hold many values in form of key:value pair
+
+    * These keys can be variables or functions and are called properties, every object has some prooerty 
+    associated with some value
+
+    * "A javascript object is a collection of name values having properties and methods"
+       eg: person,car,pen,bike,personal computer.
+
+      var car= {make:"mercendes",model:"C class",color:"white",fuel:"diesel",weight:"850kg",mileage:"8kmpl"} 
+
+      console.log (car.color);
+
+   output:
+        white    
+
+    
